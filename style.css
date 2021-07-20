@@ -1,0 +1,12 @@
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+  #flex img {
+    display: flex;
+    border: 40px;
+    margin: auto;
+    gap: auto;
+  }
