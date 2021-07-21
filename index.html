@@ -34,5 +34,22 @@
             (talvez você perca algumas configurações do servidor, mas todos os dados versionados estarão lá — veja 
             <a href="https://git-scm.com/book/pt-br/v2/Git-on-the-Server-Getting-Git-on-a-Server#r_git_on_the_server">Getting Git on a Server</a>a para mais detalhes).</p>
     </div>
+    <div>
+        <div class="title">
+        <h2> git-config - Obtenha e defina opções globais ou do repositório</h2>
+        </div>
+        <p> Você pode consultar, definir, substituir e remover opções com este comando.
+            Várias linhas podem ser adicionadas a uma opção utilizando a opção --add. 
+            A opção --type instrui o git config para garantir que os valores que chegam e os que saem sejam canonicamente compatíveis com o tipo.
+            A leitura destes valores são lidos do sistema nos arquivos de configuração global local e do repositório, é predefinido que as opções
+            system, global, local, worktree e file possam ser utilizadas para dizer
+            ao comando para ler somente deste local.
+            Durante a escrita, é predefinido que o novo valor é gravado no arquivo de configuração
+            local do repositório e as opções system, global, worktree, file possam ser utilizadas
+            para dizer ao comando para gravar nesse local (você pode dizer --local,
+            porém esta é a predefinição).
+            <a href="https://git-scm.com/docs/git-config/pt_BR">Mais sobre o Git Config</a>
+        </p>
+    </div>
 </body>
 </html>
