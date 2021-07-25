@@ -72,6 +72,32 @@
             <a class="link" href="https://git-scm.com/book/en/v2/Distributed-Git-Summary">Mais sobre o Git Distribuído</a>
         </p>
     </div>
+    <div>        
+        <div class="title">
+            <h2> Git no servidor</h2>
+        </div>
+        <p> 
+            Neste ponto, você deve ser capaz de fazer a maioria das tarefas do dia-a-dia para as quais usará o Git.
+            No entanto, para fazer qualquer colaboração no Git, você precisará ter um repositório Git remoto.
+            Embora você possa tecnicamente enviar e receber alterações de repositórios individuais, fazer isso é desencorajado porque você pode facilmente confundir no que eles estão trabalhando se não tiver cuidado.
+            Além disso, você deseja que seus colaboradores possam acessar o repositório, mesmo se o seu computador estiver offline - ter um repositório comum mais confiável geralmente é útil.
+            Portanto, o método preferido para colaborar com alguém é configurar um repositório intermediário ao qual vocês dois tenham acesso e enviar e receber a partir dele.
+            <a class="link" href="https://git-scm.com/book/en/v2/Git-on-the-Server-The-Protocols">Mais sobre o Git no servidor.</a>
+        </p>
+    </div>
+    <div>
+        <div>
+            <div class="title">
+                <h2> Git Pull</h2>
+            </div>
+            <p> 
+            Incorpora mudanças de um repositório remoto no branch atual.
+            Em seu modo padrão, git pullé uma abreviação de git fetchseguido de git merge FETCH_HEAD.
+            Mais precisamente, git pull executa git fetch com os parâmetros fornecidos e chama git merge para mesclar os cabeçalhos de branch recuperados no branch atual.
+            Com --rebase, ele executa git rebase em vez de git merge .
+                <a class="link" href="https://git-scm.com/docs/git-pull">Mais sobre o Git Pull</a>
+            </p>
+        </div>
     <div id="footer">
         <div class="linebottomside"></div>
         <br><br>
