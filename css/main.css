@@ -45,4 +45,40 @@ img {
     margin-right: 4%; 
     margin-left: 4%; 
   }
- 
+  .footer{
+    background: #0b3aea;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .tittlefoo{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: unset;
+    margin-top: 10px;
+    text-align: center;
+    display: inline-block;
+  }
+  .tittlefoo2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: unset;
+    margin-top: 10px;
+    text-align: center;
+    display: inline-block;
+  }
+  .footer p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: left;
+    text-transform: unset;
+    color: white;
+    margin-top: 10px;
+  }
+  .grid-8{
+    list-style: none;
+  }
+  .grid-4{
+    list-style: none;
+  }
