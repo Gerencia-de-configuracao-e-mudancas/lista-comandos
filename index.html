@@ -7,8 +7,27 @@
     <link rel="shortcut icon" href=".\img\L.ico" type="image/L.ico" />
     <link rel="stylesheet"type="text/css"href=".\css\main.css">
     <title>Lista de comandos</title>
+    <style type="text/css"> 
+        #wrap{
+            min-height: 10px;
+              
+        }
+        #back{
+            
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            image-rendering: auto;
+            position: fixed;
+            right: 40px;
+            bottom: 80px;
+        }
+    </style>
+
 </head>
 <body>
+    <div id="wrap"></div>
+    <div id="back"><img src="img/voltar.png" alt=""></div>
     <header>
         <div class="title">
             <h1>Página do grupo</h1>
@@ -18,9 +37,12 @@
             </a>
         <div class="button_git">
             <a class="buttongit" href="https://github.com/">vem praticar no github</a>
+            <a class="buttongit" href="https://www.ifpb.edu.br/monteiro/ensino/coordenacoes-de-curso/cst/ads">Sobre o Curso</a>
         </div>
         </div>
     </header>
+    <br>
+    <br>
     <div class="line"></div>
     <div id="flex">
         <img class="img" src="https://portal.ifrn.edu.br/campus/novacruz/noticias/campus-nova-cruz-lanca-curso-de-tecnologia-em-analise-e-desenvolvimento-de-sistemas/image_preview" />
@@ -142,4 +164,24 @@
         &nbsp;&nbsp;&nbsp;GitHub &nbsp;|&nbsp; Linkedin
     </div>
 </body>
+<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($){
+     $(window).scroll(function() {
+    if ($(this).scrollTop() > 10) {
+        $('#back').fadeIn();
+    } else {
+        $('#back').fadeOut();
+    }
+    });
+
+
+    $("#back").click(function() {
+        $("body,html").animate({
+        scrollTop: 0
+        }, 800);
+        return false;
+    });
+ });
+</script>
 </html>
